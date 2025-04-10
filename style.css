@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Zen+Dots&display=swap');
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">);
+
 body{
   color: #293647;
 }
@@ -6,14 +10,15 @@ body{
   background-position: center;
   height: 250px;
   padding-top: 75px;
+  background-image: url(drukletters.jpg);
 }
 
-.bg-fej h1{
+.bg-fej h1 {
   color: white;
   font-size: 500%;
-  text-transform: uppercase;
-  text-decoration: underline overline;
-  font-weight: bold;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Zen Dots", serif;
 }
 
 .container{
@@ -38,7 +43,15 @@ a {
   margin: 20px auto;
 }
 
+input[type="number"],
+input[type="text"] {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #valasz{
   visibility:hidden;
 }
-
